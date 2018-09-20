@@ -80,7 +80,7 @@ docker-push:
     - install-packages:
         packages: ruby
     - pasonatquila/pretty-slack-notify@0.3.6:
-        webhook_url: $SLACK_URL
+        webhook_url: $SLACK_URL1
         channel: $SLACK_CHANNEL
       
 deploy:
